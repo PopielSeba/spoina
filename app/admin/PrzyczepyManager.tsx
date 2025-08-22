@@ -266,7 +266,7 @@ export default function PrzyczepyManager() {
                 type="button"
                 onClick={() => {
                   setShowAddForm(false);
-                  setNewTrailer({ name: '', capacity: '', dimensions: '', price: 0, image: '', features: [''] });
+                  setNewTrailer({ name: '', capacity: '', dimensions: '', price: 0, image: '', description: '', features: [''] });
                 }}
                 className="bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600 transition duration-300 whitespace-nowrap"
               >
